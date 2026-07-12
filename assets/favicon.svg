@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Mwanda Media lion logo</title>
+  <desc id="desc">Bronze circular badge containing a bold black lion profile.</desc>
+  <defs>
+    <radialGradient id="bronze" cx="34%" cy="28%" r="82%">
+      <stop offset="0" stop-color="#E0AE63"/>
+      <stop offset="0.58" stop-color="#BD7F39"/>
+      <stop offset="1" stop-color="#9C5C24"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0CE86"/>
+      <stop offset="0.45" stop-color="#9D5D25"/>
+      <stop offset="1" stop-color="#D99B4C"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="256" cy="256" r="232" fill="url(#bronze)" stroke="url(#rim)" stroke-width="15"/>
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#7E461D" stroke-opacity=".35" stroke-width="4"/>
+
+  <!-- Lion silhouette recreated from the supplied Mwanda identity -->
+  <path fill="#121212" d="M372 105
+    C337 83 291 78 251 91
+    L231 72 224 106
+    L194 85 198 121
+    L163 105 176 140
+    L137 133 158 164
+    L118 166 150 191
+    L111 206 149 221
+    L118 250 160 254
+    C151 278 136 296 111 310
+    C128 321 147 326 166 324
+    C169 352 183 376 205 394
+    C230 414 264 423 296 417
+    C329 411 358 391 376 363
+    C390 341 396 315 392 290
+    C409 280 423 264 431 246
+    L395 245 430 219 389 214
+    L420 181 377 185 397 145
+    L356 158 372 105 Z
+
+    M309 143
+    C278 142 247 153 225 174
+    C207 191 198 211 194 232
+    C190 251 177 267 158 276
+    C146 282 133 285 119 285
+    C132 298 148 305 166 307
+    C183 309 198 305 212 297
+    C208 321 214 343 229 360
+    C246 381 273 392 301 389
+    C326 386 349 374 365 355
+    C347 362 328 360 313 351
+    C296 342 284 328 279 311
+    C298 319 318 318 336 309
+    C353 301 365 287 370 270
+    C353 280 334 281 318 274
+    C299 266 286 250 283 231
+    C280 212 287 192 301 178
+    C315 164 334 157 354 159
+    C344 149 327 143 309 143 Z"/>
+
+  <!-- Signature internal cuts and facial details -->
+  <path d="M304 171 C323 166 341 169 356 180 C338 177 323 181 312 192 C307 187 304 179 304 171 Z" fill="#D49A4E"/>
+  <path d="M188 202 C204 180 226 163 251 154" fill="none" stroke="#D49A4E" stroke-width="13" stroke-linecap="round"/>
+  <path d="M176 239 C195 226 217 218 239 216" fill="none" stroke="#D49A4E" stroke-width="12" stroke-linecap="round"/>
+  <path d="M183 285 C202 278 222 278 241 284" fill="none" stroke="#D49A4E" stroke-width="11" stroke-linecap="round"/>
+  <path d="M219 335 C240 344 263 346 284 340" fill="none" stroke="#D49A4E" stroke-width="11" stroke-linecap="round"/>
+  <path d="M340 261 C353 261 365 256 375 246 C373 262 363 276 348 282 Z" fill="#D49A4E"/>
+  <path d="M164 190 C185 157 217 131 254 118" fill="none" stroke="#F4D08D" stroke-opacity=".35" stroke-width="7" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="t d">
+<title id="t">DEMO LISTING</title><desc id="d">Demo placeholder artwork for Mwanda Media.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C99732"/><stop offset="1" stop-color="#6B4632"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<g opacity=".18" fill="none" stroke="#F7F2E8" stroke-width="14"><path d="M-50 330 120 160l170 170 170-170 170 170 170-170 170 170"/><path d="M-50 420 120 250l170 170 170-170 170 170 170-170 170 170"/></g>
+<circle cx="650" cy="120" r="115" fill="#F7F2E8" opacity=".12"/>
+<circle cx="650" cy="120" r="65" fill="#F7F2E8" opacity=".13"/>
+<text x="58" y="330" fill="#F7F2E8" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="800" letter-spacing="2">DEMO LISTING</text>
+<text x="62" y="388" fill="#F7F2E8" opacity=".9" font-family="Arial, Helvetica, sans-serif" font-size="31">Phone Repair</text>
+<text x="62" y="445" fill="#F7F2E8" opacity=".68" font-family="Arial, Helvetica, sans-serif" font-size="20">MWANDA MEDIA • DEMO CONTENT</text>
+</svg>
