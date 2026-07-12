@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mwanda Media — Tanzania Media Hub</title>
+  <meta name="description" content="Mwanda Media is a modern Tanzanian media hub for television, radio, podcasts, local stories, marketplace content and community conversations.">
+  <meta name="theme-color" content="#111315">
+  <meta name="color-scheme" content="dark light">
+  <meta property="og:title" content="Mwanda Media — Tanzania Media Hub">
+  <meta property="og:description" content="Stories, sound and community from Salasala, Dar es Salaam.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero-live.svg">
+  <meta property="og:locale" content="en_TZ">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/logo-mwanda.svg" as="image" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Mwanda Media",
+    "description": "A modern Tanzanian media hub connecting audiences with television, radio, podcasts, local stories, marketplace content and community conversations.",
+    "inLanguage": "en",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Mwanda Media",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Salasala",
+        "addressRegion": "Dar es Salaam",
+        "addressCountry": "TZ"
+      }
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#screen">Skip to content</a>
+
+  <div class="desktop-backdrop" aria-hidden="true">
+    <div class="backdrop-copy">
+      <span class="eyebrow">SALASALA · DAR ES SALAAM</span>
+      <h1>Stories, sound<br>and community.</h1>
+      <p>A mobile-first concept bringing Mwanda television, radio, podcasts, local promotions and community voices into one experience.</p>
+    </div>
+  </div>
+
+  <div id="app-shell" class="app-shell" aria-live="polite">
+    <section id="splash-screen" class="splash-screen screen-layer is-active" aria-labelledby="splash-title">
+      <div class="pattern pattern-top" aria-hidden="true"></div>
+      <div class="splash-content">
+        <div class="logo-orbit">
+          <span class="orbit-dot dot-a"></span>
+          <span class="orbit-dot dot-b"></span>
+          <img src="assets/logo-mwanda.svg" width="140" height="140" alt="Mwanda Media lion logo">
+        </div>
+        <p class="eyebrow">SALASALA · TANZANIA</p>
+        <h2 id="splash-title">Mwanda Media</h2>
+        <p>Stories, sound and community</p>
+        <button class="button button-primary button-wide" data-action="enter-app">Enter Mwanda</button>
+      </div>
+      <div class="pattern pattern-bottom" aria-hidden="true"></div>
+    </section>
+
+    <section id="auth-screen" class="auth-screen screen-layer" aria-labelledby="auth-title" hidden>
+      <div class="auth-art">
+        <div class="bead-frame">
+          <img src="assets/logo-mwanda.svg" width="126" height="126" alt="Mwanda lion mark">
+        </div>
+        <span class="eyebrow">WELCOME TO THE PRIDE</span>
+        <h2 id="auth-title">Your media.<br>Your community.</h2>
+        <p>Sign in to save shows, continue listening and join conversations.</p>
+      </div>
+      <form id="signin-form" class="auth-form">
+        <label class="field-label" for="identity">Email or phone number</label>
+        <div class="field-wrap">
+          <span class="field-icon" aria-hidden="true">@</span>
+          <input id="identity" name="identity" type="text" autocomplete="username" placeholder="you@example.com or +255…" required>
+        </div>
+        <label class="field-label" for="password">Password</label>
+        <div class="field-wrap">
+          <span class="field-icon" aria-hidden="true">●</span>
+          <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" minlength="4" required>
+          <button type="button" class="icon-button password-toggle" data-action="toggle-password" aria-label="Show password">Show</button>
+        </div>
+        <div class="auth-links-row">
+          <button type="button" class="text-button" data-action="forgot-password">Forgot password?</button>
+          <button type="button" class="text-button" data-action="create-account">Create account</button>
+        </div>
+        <button type="submit" class="button button-primary button-wide">Sign In</button>
+        <button type="button" class="button button-ghost button-wide" data-action="guest">Continue as Guest</button>
+        <div class="divider"><span>or continue with</span></div>
+        <div class="social-row" aria-label="Social sign-in placeholders">
+          <button type="button" class="social-button" data-action="social-placeholder">G</button>
+          <button type="button" class="social-button" data-action="social-placeholder">f</button>
+          <button type="button" class="social-button" data-action="social-placeholder"></button>
+        </div>
+        <p class="demo-note">Demo sign-in only. No account data is transmitted or stored.</p>
+      </form>
+    </section>
+
+    <section id="main-app" class="main-app screen-layer" hidden>
+      <header class="app-header">
+        <button class="brand-button" data-route="home" aria-label="Go to home">
+          <img src="assets/logo-mwanda.svg" width="38" height="38" alt="">
+          <span><strong>Mwanda</strong><small>MEDIA</small></span>
+        </button>
+        <div class="header-actions">
+          <button class="icon-button" data-route="search" aria-label="Search"><span data-icon="search"></span></button>
+          <button class="icon-button notification-button" data-route="notifications" aria-label="Notifications">
+            <span data-icon="bell"></span><span id="notification-dot" class="notification-dot"></span>
+          </button>
+        </div>
+      </header>
+
+      <main id="screen" class="screen" tabindex="-1"></main>
+
+      <nav class="bottom-nav" aria-label="Primary navigation">
+        <button class="nav-item is-active" data-route="home" aria-current="page"><span data-icon="home"></span><span>Home</span></button>
+        <button class="nav-item" data-route="live"><span data-icon="play-circle"></span><span>Live</span></button>
+        <button class="nav-item" data-route="podcasts"><span data-icon="mic"></span><span>Podcasts</span></button>
+        <button class="nav-item" data-route="community"><span data-icon="users"></span><span>Community</span></button>
+        <button class="nav-item" data-route="profile"><span data-icon="user"></span><span>Profile</span></button>
+      </nav>
+
+      <div id="mini-player" class="mini-player" hidden>
+        <img id="mini-player-art" src="assets/images/radio-cover.svg" width="46" height="46" alt="Current audio artwork">
+        <button class="mini-player-main" data-action="open-now-playing">
+          <span id="mini-player-label" class="mini-player-label">Now playing</span>
+          <strong id="mini-player-title">FM Mwanda</strong>
+        </button>
+        <button id="mini-player-toggle" class="icon-button mini-play-button" data-action="toggle-audio" aria-label="Play audio"><span data-icon="play"></span></button>
+        <button class="icon-button" data-action="close-mini-player" aria-label="Close player"><span data-icon="x"></span></button>
+      </div>
+    </section>
+
+    <div id="toast-region" class="toast-region" role="status" aria-live="polite" aria-atomic="true"></div>
+    <div id="modal-root"></div>
+    <audio id="global-audio" preload="metadata"></audio>
+  </div>
+
+  <template id="loading-template">
+    <div class="route-loader" role="status" aria-label="Loading screen">
+      <img src="assets/logo-mwanda.svg" alt="" width="72" height="72">
+      <span>Loading Mwanda</span>
+    </div>
+  </template>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
